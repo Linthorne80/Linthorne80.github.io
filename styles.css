@@ -1,0 +1,309 @@
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f4f4; /* Adjust background color as needed */
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.dropdown-container {
+  text-align: left;
+}
+
+.dropbtn {
+  padding: 10px;
+  font-size: 16px;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: #f1f1f1;
+}
+
+hr {
+  margin-top: 20px;
+  border: 1px solid #ddd; /* Add a subtle border to separate sections */
+}
+
+h1, h2 {
+  margin-bottom: 10px;
+}
+
+.section-title {
+  font-size: 2em;
+  margin-bottom: 5px;
+}
+
+.section-subtitle {
+  color: #777;
+  font-size: 1.2em;
+  margin-top: 0;
+}
+
+.profile-image {
+  width: 100%;
+  max-width: 170px; /* Adjust the max-width as needed */
+  height: auto;
+  margin-top: 20px;
+}
+
+.image-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #333; /* Adjust background color as needed */
+  color: #fff; /* Adjust text color as needed */
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+}
+
+.button-container img {
+  width: 50px;
+  height: 50px;
+}
+
+/* Add this to your existing styles.css or include it in the head of your HTML document */
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #333;
+  padding: 10px;
+}
+
+.menu-toggle {
+  cursor: pointer;
+  border: none;
+  background: none;
+  display: flex;
+  flex-direction: column;
+}
+
+.bar {
+  background-color: #fff;
+  height: 3px;
+  width: 25px;
+  margin: 4px 0;
+}
+
+.navbar-links {
+  display: flex;
+}
+
+.navbar-links a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 15px;
+}
+
+.navbar-links a:hover {
+  text-decoration: underline;
+}
+
+/* Apply a basic CSS reset */
+body,
+h1,
+h2,
+p,
+address,
+form,
+button,
+input,
+textarea {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #f5f5f5;
+}
+
+#mainbox {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Navigation styles */
+.dropdown {
+    display: inline-block;
+    position: relative;
+}
+
+.dropbtn {
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #f1f1f1;
+}
+
+/* Header styles */
+header {
+    margin-top: 20px;
+}
+
+h1 {
+    color: #539d3e;
+}
+
+address {
+    font-style: normal;
+}
+
+/* Contact form styles */
+.contact {
+    margin-top: 30px;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 16px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+input[type="submit"] {
+    background-color: #333;
+    color: white;
+    cursor: pointer;
+}
+
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #f7f7f7;
+    color: #333;
+}
+
+header {
+    background-color: #3a3a3a;
+    color: #fff;
+    padding: 20px 0;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+h1 {
+    margin: 0;
+}
+
+nav {
+    margin-top: 20px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+}
+
+li {
+    margin-right: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    transition: color 0.3s ease-in-out;
+}
+
+a:hover {
+    color: #ffd700; /* Change this to your preferred hover color */
+}
+
+section {
+    padding: 40px 0;
+}
+
+h2 {
+    color: #333;
+}
+
+p {
+    margin-bottom: 20px;
+}
+
+a.resume-link {
+    display: inline-block;
+    padding: 12px 20px;
+    background-color: #3a3a3a;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease-in-out;
+}
+
+a.resume-link:hover {
+    background-color: #ffd700; /* Change this to your preferred hover color */
+}
+
+footer {
+    background-color: #3a3a3a;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
