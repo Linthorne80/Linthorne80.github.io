@@ -56,9 +56,11 @@
             background-color: #f1f1f1;
         }
 
-        #pdf-viewer {
-            max-width: 800px;
-            margin: 20px auto; /* Center the PDF container */
+        #download-link {
+            display: block;
+            text-align: center;
+            margin: 20px auto;
+            font-size: 18px;
         }
     </style>
 </head>
@@ -81,10 +83,13 @@
     <!-- Container for the PDF.js viewer -->
     <div id="pdf-viewer" class="resume-container"></div>
 
+    <!-- Download link for the PDF -->
+    <a id="download-link" href="brooks.pdf" download="Brookelynn_Upshall_Resume.pdf">Download Resume</a>
+
     <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.10.377/pdf.min.js"></script>
     <script>
         // PDF.js script to render PDF as images
-        const pdfUrl = 'brooks.pdf';  // Removed the space and adjusted the case
+        const pdfUrl = 'brooks.pdf';  // Adjust the path to your PDF file
         const container = document.getElementById('pdf-viewer');
 
         // Load the PDF document
