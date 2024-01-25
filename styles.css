@@ -307,3 +307,12 @@ footer {
     padding: 20px 0;
     text-align: center;
 }
+
+.download-button {
+    color: blue;
+    text-decoration: none;  /* Remove underline */
+}
+
+.download-button:hover {
+    color: darkblue;  /* Change color on hover */
+}
